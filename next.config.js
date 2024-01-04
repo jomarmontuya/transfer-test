@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["metacore.mobula.io", "mobula.mypinata.cloud"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
