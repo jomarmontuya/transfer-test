@@ -16,7 +16,7 @@ export default function Price({ price }: PriceProps) {
 
   return (
     <span
-      className={`transition ease-linear animate-color ${
+      className={`transition delay-1000 ease-in-out animate-color ${
         isRed ? "text-red-400" : "text-black"
       }`}
     >
